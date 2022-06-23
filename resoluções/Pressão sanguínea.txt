@@ -1,0 +1,12 @@
+P, S = input().split()
+S = int(S)
+
+while True:
+  if S >= 1 and S < 90:
+    print(P, 'Internar')
+  if S >= 90 and S <= 100:
+    print(P, 'Alta')
+  if P == '#' and S == 0:
+    break
+  P, S = input().split()
+  S = int(S)

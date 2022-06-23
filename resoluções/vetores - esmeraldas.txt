@@ -1,0 +1,10 @@
+N = int(input())
+lista = []
+lista = map(int, input().split())
+C = int(input()) 
+
+
+if C in lista:
+    print(C)
+else:
+    print('-1')

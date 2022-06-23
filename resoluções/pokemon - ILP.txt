@@ -1,0 +1,16 @@
+A, D, P = input().split()
+A = int(A)
+D = int(D)
+P = int(P)
+Fmax = 110
+x = ((A + D + P) * 100) // 110 
+if x >= 0 and x <= 50:
+  print('Seu pokemon nao fara progresso em batalhas')
+if x >= 51 and x <= 66:
+  print('Seu pokemon esta acima da media')
+if x >= 67 and x <= 79:
+  print('Seu pokemon certamente me chamou a atencao')
+if x >= 80 and x <= 100:
+  print('Seu pokemon e uma maravilha')
+if x > 110:
+  print('Hum, parece que houve um erro')

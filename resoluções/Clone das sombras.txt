@@ -1,0 +1,9 @@
+N = int(input())
+Naruto = 1
+
+while N!= Naruto and Naruto < N:
+    Naruto *= 2
+if Naruto == N:
+    print('Dattebayo')
+if Naruto != N:
+    print('Tururuuu')

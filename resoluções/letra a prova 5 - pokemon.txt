@@ -1,0 +1,13 @@
+L, C = map(int, input().split())
+x = 0
+matriz = []
+
+for l in range(L):
+    linha = list(map(int, input().split()))
+    for j in linha:
+        matriz.append(j)
+a = int(input())
+for j in matriz:
+    if a == j:
+        x +=1
+print('Ash pego', x, 'pokemon')

@@ -1,0 +1,17 @@
+n = int(input())
+
+u = []
+u = map(int, input().split())
+
+v = []
+v = map(int, input().split())
+
+d = []
+d = map(int, input().split())
+
+s = [u + v for u, v in zip (u, v)]
+
+if sum(s) == sum(d):
+    print('OK')
+else:
+    print('NOPE :(')

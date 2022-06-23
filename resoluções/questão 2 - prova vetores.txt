@@ -1,0 +1,14 @@
+n=int(input())
+Sn=[int(i) for i in input().split()]
+S1=sum(Sn)
+S2=int(S1/2)
+ 
+i=0
+j=0
+
+for k in range(len(Sn)):
+    j+=Sn[k]
+    if j == S2:
+        i = k
+        break
+print(i+1)

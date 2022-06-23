@@ -1,0 +1,13 @@
+T = int(input())
+P = int(input())
+
+maior = -1
+
+while P != 0:
+    P = int(input())
+    maior = max(maior, P)
+
+if maior > T:
+        print('ALARME')
+else:
+    print('O Havai pode dormir tranquilo')

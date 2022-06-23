@@ -1,0 +1,11 @@
+N = int(input())
+E = map(int, input().split())
+lista=[i for i in E if i <= 7]
+lista.sort()
+
+if len(lista) < 7:  
+    print(*lista, sep = ' ')
+    print('Nao encontramos todas')
+else:
+    print(*lista, sep = ' ')
+    print('Saia Shenlong e realize o meu desejo')

@@ -1,0 +1,6 @@
+N = int(input())
+Xi = map(int, input().split())
+
+lista=[i for i in Xi]
+lista.sort()
+print(*lista, sep = ' ')
